@@ -11,8 +11,8 @@
     
 suma_array:
     
-    lw t2,0(t0)
     beq t1,x0,fin
+    lw t2,0(t0)
     
     add a0,a0,t2
     addi t1, t1, -1
